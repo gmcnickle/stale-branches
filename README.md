@@ -3,7 +3,7 @@
 
 A PowerShell script that scans your Git repository and generates a styled **HTML report** showing stale branches, their metadata, and merge status — helping you keep your Git history clean and healthy.
 
-![Report Screenshot](https://raw.githubusercontent.com/gmcnickle/gittools/main/assets/gitTools-dk.png)
+![Report Screenshot](https://raw.githubusercontent.com/gmcnickle/stale-branches/main/assets/gitTools-dk.png)
 
 ## 📋 Features
 
@@ -60,7 +60,7 @@ Over time, Git branches accumulate — many of them forgotten after being merged
 
 ## 📷 Screenshots
 
-![Report Screenshot](https://raw.githubusercontent.com/gmcnickle/gittools/main/assets/stalebranches-screenshot.png)
+![Report Screenshot](https://raw.githubusercontent.com/gmcnickle/stale-branches/main/assets/stalebranches-screenshot.png)
 
 ## 🤝 Contributions
 
