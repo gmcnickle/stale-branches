@@ -392,7 +392,7 @@ function clearFilters() {
     $htmlContent = $htmlContent -replace '{BRANCH_ROWS}', $branchRows.Trim()
     $htmlContent = $htmlContent -replace '{REPO}', "$GitHubOwner/$GitHubRepo"
 
-    Set-Content -Path $OutputPath -Value $htmlContent -Encoding UTF8
+    Set-Content -Path $OutputPath -Value $htmlContent -Encoding UTF8            
     Write-Host "HTML report saved to $OutputPath"
 }
 
@@ -608,6 +608,13 @@ function Get-StaleGitBranches {
     Write-StaleBranchHtmlReport -Results $results -AuthorSummary $authorSummary -OutputPath $OutputPath
 
     return $results
+}
+
+if (-not (Get-Command git -ErrorAction SilentlyContinue)) {
+    throw "Git is not installed or not in the PATH."
+}
+if (-not (Get-Command gh -ErrorAction SilentlyContinue)) {
+    Write-Warning "GitHub CLI (gh) not found. PR-related info may be incomplete."
 }
 
 if ($CleanCache) {
