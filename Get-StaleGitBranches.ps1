@@ -4,7 +4,6 @@
 .AUTHOR Gary McNickle
 .PROJECTURI https://github.com/gmcnickle/stale-branches
 .COPYRIGHT © 2025 Gary McNickle
-.DESCRIPTION Analyzes stale git branches and generates an HTML report.
 .LICENSEURI https://github.com/gmcnickle/stale-branches/blob/main/LICENSE.md
 .TAGS git stale branches html report powershell
 #>
