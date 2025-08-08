@@ -6,4 +6,5 @@
     Description = 'Analyzes stale git branches and generates an HTML report.'
     PowerShellVersion = '5.1'
     ProjectUri = 'https://github.com/gmcnickle/stale-branches'
+    Tags = @('git', 'branches', 'git-analysis', 'reporting', 'html', 'powershell', 'stale-branches')
 }

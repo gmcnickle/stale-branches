@@ -1,3 +1,15 @@
+<#PSScriptInfo
+.VERSION 1.0.0
+.GUID ea8d4667-4fd9-439f-bf42-e4b12539858f
+.AUTHOR Gary McNickle
+.PROJECTURI https://github.com/gmcnickle/stale-branches
+.COPYRIGHT © 2025 Gary McNickle
+.DESCRIPTION Analyzes stale git branches and generates an HTML report.
+.LICENSEURI https://github.com/gmcnickle/stale-branches/blob/main/LICENSE.md
+.TAGS git stale branches html report powershell
+#>
+
+
 <#
 .SYNOPSIS
 Generates an HTML report of stale Git branches that have not been merged to master.

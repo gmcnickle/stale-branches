@@ -67,8 +67,12 @@ Over time, Git branches accumulate — many of them forgotten after being merged
 Feel free to fork, submit PRs, or suggest improvements via GitHub Issues.
 
 ## 📜 License
+Creative Commons Attribution 4.0 International (CC BY 4.0)
 
-MIT License — use freely, modify proudly.
+Copyright © 2025 Gary McNickle
+
+This work is licensed under the Creative Commons Attribution 4.0 International License. 
+To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/.
 
 ## Attribution
 
